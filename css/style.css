@@ -130,12 +130,25 @@ header{
 
 .positive{
     padding-top: 15px;
-    list-style-type: '\2713';
+    list-style-type: none;
+    
 }
 
 .negative{
     padding-top: 15px;
-    list-style-type: '\274C';
+    list-style-type: none;
+    
 }
 
+.icona_lista_check{
+    border: solid 1px;
+    border-radius: 50%;
+    color: darkgreen;
+}
+
+.icona_lista_cross{
+    border: solid 1px;
+    border-radius: 50%;
+    color: darkred;
+}
 
