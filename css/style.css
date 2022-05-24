@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(165, 153, 245);
+}
+
 header{
-    margin: 15px;
+    padding: 10px;
+    background-color: white;
 }
 
 .logo_text{
@@ -18,6 +23,7 @@ header{
 #logo{
     vertical-align: middle;
 }
+
 
 
 
