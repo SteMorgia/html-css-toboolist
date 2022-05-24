@@ -60,6 +60,82 @@ header{
     width: 70%;
     background-color: #fff;
     margin: auto;
-    
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
 }
+
+.lista{
+    margin-left: 50px;
+    padding-top: 20px; 
+}
+
+.lista_3{
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.capolista::before{
+    content:'\25BC';
+}
+
+.editorial{
+    background-color:rgb(62, 104, 241);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.Q1{
+    background-color: rgb(159, 73, 240);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.recruiting{
+    background-color: rgb(44, 99, 44);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.mobile{
+    background-color: rgb(248, 161, 55);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.website{
+    background-color: rgb(192, 31, 63);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.sales{
+    background-color: rgb(97, 209, 46);
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+.positive{
+    padding-top: 15px;
+    list-style-type: '\2713';
+}
+
+.negative{
+    padding-top: 15px;
+    list-style-type: '\274C';
+}
+
 
